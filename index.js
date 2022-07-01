@@ -18,7 +18,7 @@ module.exports = function getToken(key, options) {
 function base32tohex(base32) {
   let base32chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ234567", bits = "", hex = ""
   base32 = base32.replace(/=+$/, "")
-  for (let i = base32.length; i >= 0; i--) {
+  for (let i = base32.length-1; i >= 0; i--) {
     let val = base32chars.indexOf(base32.charAt(i).toUpperCase())
     bits = leftpad(val.toString(2), 5, "0") + bits
   }
