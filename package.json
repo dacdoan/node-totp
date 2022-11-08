@@ -1,0 +1,25 @@
+{
+  "name": "node-totp",
+  "version": "1.0.0",
+  "description": "Zero dependency node.js package for generating totp (Google Authenticator)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dacdoan/node-totp.git"
+  },
+  "keywords": [
+    "node-totp"
+  ],
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "author": "dacdoan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dacdoan/node-totp/issues"
+  },
+  "homepage": "https://github.com/dacdoan/node-totp#readme"
+}
